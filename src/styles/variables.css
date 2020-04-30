@@ -1,0 +1,42 @@
+:root {
+  /* Colors */
+  --black: #0a0a0a;
+  --white: #eeeeee;
+  --white-80: #444444;
+  --highlight: #0026ff;
+  --highlight-2: #ff0000;
+  --highlight-3: #33ff00;
+  /* Document Colors */
+  --primary-color: var(--black);
+  --secondary-color: var(--white);
+  --tertiary-color: var(--highlight);
+
+  /* Spacing */
+  --spacing-0: 0.8rem;
+  --spacing-1: 1rem;
+  --spacing-2: 2rem;
+  --spacing-3: 3rem;
+  --spacing-4: 5rem;
+  --spacing-5: 8rem;
+  --spacing-6: 13rem;
+
+  /* Fonts */
+  --font-1: 'Lack Line Regular', sans-serif;
+  --font-2: 'Helvetica', sans-serif;
+  /* Font Sizes */
+  /* font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
+  --fontsize-1: calc(80px + (145 - 80) * (100vw - 375px) / (1440 - 375));
+  --fontsize-2: calc(35px + (45 - 35) * (100vw - 375px) / (1440 - 375));
+  /* Font Options */
+  --font-weight: 300;
+  --line-height: 1.1;
+  --spacing: -1px;
+
+  /* Animation */
+  --transition-duration: 250ms;
+  --easing--out: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+  /* Misc */
+  --border-1: 0.15rem;
+  --border-radius: 20px;
+}

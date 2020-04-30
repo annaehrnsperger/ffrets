@@ -1,0 +1,8 @@
+{
+  "extends": ["wesbos"],
+  "rules": {
+    "no-console": 1,
+    "react/prop-types": 1,
+    "array-callback-return": 1
+  }
+}
