@@ -1,6 +1,6 @@
 # ffrets: random guitar note generator
 
-## 🔗 ffrets.net
+## 🔗 https://ffrets.annaehrnsperger.de/
 
 ffrets.net plays a random note that you can identify on the
 fretboard by playing it on your own guitar
